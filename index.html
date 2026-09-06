@@ -947,21 +947,21 @@
       color: white; 
       line-height: 1.3;
       letter-spacing: -0.01em;
-      background: linear-gradient(135deg, #3c3c3b 0%, #545453 100%);
+      background: linear-gradient(135deg, #006a74 0%, #00545c 100%);
       padding: 5px 10px;
       border-radius: 6px;
       display: inline;
       transition: all 0.2s;
     }
     .task-card-title:hover {
-      background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+      background: linear-gradient(135deg, #ef7d05 0%, #d66d00 100%);
     }
     /* Couleurs de fond des cartes basées sur la priorité */
     .task-card.priority-high {
       background: linear-gradient(135deg, #fff4e8 0%, #fdd9ad 100%);
     }
     .task-card.priority-medium {
-      background: linear-gradient(135deg, #eaf7f8 0%, #b8dde0 100%);
+      background: linear-gradient(135deg, #eaf7f8 0%, #cfe9eb 100%);
     }
     .task-card.priority-low {
       background: linear-gradient(135deg, #f6f9e8 0%, #e4ecb0 100%);
@@ -974,6 +974,11 @@
     }
     .task-card.priority-low .task-card-title {
       background: linear-gradient(135deg, #a1b0d1 0%, #8695b8 100%);
+    }
+    .task-card.priority-high .task-card-title:hover,
+    .task-card.priority-medium .task-card-title:hover,
+    .task-card.priority-low .task-card-title:hover {
+        background: linear-gradient(135deg, #cad400 0%, #a8b100 100%);
     }
     .task-card-status-badge {
       display: inline-flex;
