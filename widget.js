@@ -3188,7 +3188,7 @@ function getProjectName(projectId) {
 function getProjectColor(projectId) {
   if (!projectId) return '#94a3b8';
   var proj = projects.find(function(p) { return p.id === projectId; });
-  return proj ? (proj.Color || '#6366f1') : '#94a3b8';
+  return proj ? (proj.Color || '#ef7d05') : '#94a3b8';
 }
 
 function refreshAllViews() {
