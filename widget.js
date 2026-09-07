@@ -6,8 +6,8 @@ var currentLang = 'fr';
 
 var i18n = {
   fr: {
-    appTitle: 'Gestion de Projet',
-    appSubtitle: 'Organisez et suivez vos tâches avec le tableau Kanban ou la vue tableau',
+    appTitle: 'Projets informatiques - VETAGROSUP',
+    appSubtitle: 'Organisez et suivez vos tâches pour le suivi des projets SI',
     notInGrist: 'Ce widget doit être utilisé dans Grist.',
     tabCalendar: 'Calendrier',
     tabKanban: 'Kanban',
