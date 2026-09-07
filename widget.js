@@ -7,7 +7,7 @@ var currentLang = 'fr';
 var i18n = {
   fr: {
     appTitle: 'Projets informatiques - VETAGROSUP',
-    appSubtitle: 'Organisez et suivez vos tâches pour le suivi des projets SI',
+    appSubtitle: 'Organisez et suivez vos tâches pour les projets SI',
     notInGrist: 'Ce widget doit être utilisé dans Grist.',
     tabCalendar: 'Calendrier',
     tabKanban: 'Kanban',
