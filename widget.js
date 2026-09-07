@@ -348,8 +348,8 @@ var i18n = {
     templateUpdated: 'Modèle mis à jour !'
   },
   en: {
-    appTitle: 'Project Management',
-    appSubtitle: 'Organize and track your tasks with the Kanban board or table view',
+    appTitle: 'VetAgroSup IT Tracking',
+    appSubtitle: 'Organize and track your tasks for IT projects',
     notInGrist: 'This widget must be used inside Grist.',
     tabCalendar: 'Calendar',
     tabKanban: 'Kanban',
